@@ -39,7 +39,7 @@ about:
   home: http://github.com/alexmojaki/snoop
   summary: Powerful debugging tools for Python
   license: MIT
-  license_file: LICENSE
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
