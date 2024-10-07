@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools
   run:
     - asttokens
     - cheap_repr >=0.4.0
