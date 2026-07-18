@@ -1,5 +1,5 @@
 {% set name = "snoop" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snoop-{{ version }}.tar.gz
-  sha256: c615eddf84d8907f893dec7fde38768aa4b1d88d92d63055b6cfc07e5cde37ec
+  sha256: fb2ad19b99c5076889f58f002f22d811841b3066ef65ca2c75579fe100c39bb2
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
